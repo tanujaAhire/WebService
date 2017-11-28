@@ -48,8 +48,9 @@ public class TrackoMain
 		
 	}
 	@Test
-	public void login()
+	public void signup()
 	{
+		
 		WebElement signup_button=driver.findElement(By.xpath("//a[text()='Sign Up Free']"));
 		signup_button.click();
 		
@@ -64,6 +65,8 @@ public class TrackoMain
 		 
 		WebElement loginSignUpbtn_textbox=driver.findElement(By.id("sub_btn_signup"));
 		loginSignUpbtn_textbox.click();
+		
+		
 	}
 	
 	@AfterTest

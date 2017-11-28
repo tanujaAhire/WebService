@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="42150" started-at="2017-11-28T03:23:51Z" finished-at="2017-11-28T03:24:33Z">
+  <suite name="Suite" duration-ms="36269" started-at="2017-11-28T03:34:52Z" finished-at="2017-11-28T03:35:28Z">
     <groups>
     </groups>
-    <test name="Test2" duration-ms="235" started-at="2017-11-28T03:23:51Z" finished-at="2017-11-28T03:23:51Z">
+    <test name="Test2" duration-ms="386" started-at="2017-11-28T03:34:52Z" finished-at="2017-11-28T03:34:52Z">
       <class name="com.selenium.WebService.TrackoMain">
-        <test-method status="FAIL" signature="seup(java.lang.String)[pri:0, instance:com.selenium.WebService.TrackoMain@34b7bfc0]" name="seup" is-config="true" duration-ms="192" started-at="2017-11-28T08:53:51Z" finished-at="2017-11-28T08:53:51Z">
+        <test-method status="FAIL" signature="seup(java.lang.String)[pri:0, instance:com.selenium.WebService.TrackoMain@34b7bfc0]" name="seup" is-config="true" duration-ms="316" started-at="2017-11-28T09:04:52Z" finished-at="2017-11-28T09:04:52Z">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@ Driver info: driver.version: FirefoxDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seup -->
-        <test-method status="SKIP" signature="login()[pri:0, instance:com.selenium.WebService.TrackoMain@34b7bfc0]" name="login" duration-ms="1" started-at="2017-11-28T08:53:51Z" finished-at="2017-11-28T08:53:51Z">
+        <test-method status="SKIP" signature="signup()[pri:0, instance:com.selenium.WebService.TrackoMain@34b7bfc0]" name="signup" duration-ms="1" started-at="2017-11-28T09:04:52Z" finished-at="2017-11-28T09:04:52Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN8_1
@@ -99,16 +99,16 @@ Driver info: driver.version: FirefoxDriver
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.selenium.WebService.TrackoMain@34b7bfc0]" name="teardown" is-config="true" duration-ms="0" started-at="2017-11-28T08:53:51Z" finished-at="2017-11-28T08:53:51Z">
+        </test-method> <!-- signup -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.selenium.WebService.TrackoMain@34b7bfc0]" name="teardown" is-config="true" duration-ms="0" started-at="2017-11-28T09:04:52Z" finished-at="2017-11-28T09:04:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.selenium.WebService.TrackoMain -->
     </test> <!-- Test2 -->
-    <test name="Test1" duration-ms="18437" started-at="2017-11-28T03:23:51Z" finished-at="2017-11-28T03:24:10Z">
+    <test name="Test1" duration-ms="21464" started-at="2017-11-28T03:34:52Z" finished-at="2017-11-28T03:35:13Z">
       <class name="com.selenium.WebService.TrackoMain">
-        <test-method status="PASS" signature="seup(java.lang.String)[pri:0, instance:com.selenium.WebService.TrackoMain@180bc464]" name="seup" is-config="true" duration-ms="13679" started-at="2017-11-28T08:53:51Z" finished-at="2017-11-28T08:54:05Z">
+        <test-method status="PASS" signature="seup(java.lang.String)[pri:0, instance:com.selenium.WebService.TrackoMain@180bc464]" name="seup" is-config="true" duration-ms="15642" started-at="2017-11-28T09:04:52Z" finished-at="2017-11-28T09:05:07Z">
           <params>
             <param index="0">
               <value>
@@ -119,19 +119,19 @@ Driver info: driver.version: FirefoxDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.selenium.WebService.TrackoMain@180bc464]" name="login" duration-ms="3940" started-at="2017-11-28T08:54:05Z" finished-at="2017-11-28T08:54:09Z">
+        <test-method status="PASS" signature="signup()[pri:0, instance:com.selenium.WebService.TrackoMain@180bc464]" name="signup" duration-ms="4790" started-at="2017-11-28T09:05:07Z" finished-at="2017-11-28T09:05:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.selenium.WebService.TrackoMain@180bc464]" name="teardown" is-config="true" duration-ms="815" started-at="2017-11-28T08:54:09Z" finished-at="2017-11-28T08:54:10Z">
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.selenium.WebService.TrackoMain@180bc464]" name="teardown" is-config="true" duration-ms="1027" started-at="2017-11-28T09:05:12Z" finished-at="2017-11-28T09:05:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.selenium.WebService.TrackoMain -->
     </test> <!-- Test1 -->
-    <test name="Test3" duration-ms="42150" started-at="2017-11-28T03:23:51Z" finished-at="2017-11-28T03:24:33Z">
+    <test name="Test3" duration-ms="36269" started-at="2017-11-28T03:34:52Z" finished-at="2017-11-28T03:35:28Z">
       <class name="com.selenium.WebService.TrackoMain">
-        <test-method status="PASS" signature="seup(java.lang.String)[pri:0, instance:com.selenium.WebService.TrackoMain@54a097cc]" name="seup" is-config="true" duration-ms="11240" started-at="2017-11-28T08:53:51Z" finished-at="2017-11-28T08:54:02Z">
+        <test-method status="PASS" signature="seup(java.lang.String)[pri:0, instance:com.selenium.WebService.TrackoMain@54a097cc]" name="seup" is-config="true" duration-ms="5574" started-at="2017-11-28T09:04:52Z" finished-at="2017-11-28T09:04:57Z">
           <params>
             <param index="0">
               <value>
@@ -142,7 +142,7 @@ Driver info: driver.version: FirefoxDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- seup -->
-        <test-method status="FAIL" signature="login()[pri:0, instance:com.selenium.WebService.TrackoMain@54a097cc]" name="login" duration-ms="30312" started-at="2017-11-28T08:54:02Z" finished-at="2017-11-28T08:54:33Z">
+        <test-method status="FAIL" signature="signup()[pri:0, instance:com.selenium.WebService.TrackoMain@54a097cc]" name="signup" duration-ms="30141" started-at="2017-11-28T09:04:57Z" finished-at="2017-11-28T09:05:27Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to find element with xpath == //a[text()='Sign Up Free']
@@ -150,8 +150,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
 System info: host: 'DESKTOP-NQVH91B', ip: '192.168.0.5', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:32305/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, unhandledPromptBehavior: dismiss}
-Session ID: 94ad3390-b609-48db-a134-0d5857e14744
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:40470/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, unhandledPromptBehavior: dismiss}
+Session ID: aa2f9df9-4569-4f70-ae0b-891706398545
 *** Element info: {Using=xpath, value=//a[text()='Sign Up Free']}]]>
             </message>
             <full-stacktrace>
@@ -160,8 +160,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
 System info: host: 'DESKTOP-NQVH91B', ip: '192.168.0.5', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:32305/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, unhandledPromptBehavior: dismiss}
-Session ID: 94ad3390-b609-48db-a134-0d5857e14744
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:40470/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, unhandledPromptBehavior: dismiss}
+Session ID: aa2f9df9-4569-4f70-ae0b-891706398545
 *** Element info: {Using=xpath, value=//a[text()='Sign Up Free']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -177,7 +177,7 @@ Session ID: 94ad3390-b609-48db-a134-0d5857e14744
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.selenium.WebService.TrackoMain.login(TrackoMain.java:53)
+	at com.selenium.WebService.TrackoMain.signup(TrackoMain.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -203,8 +203,8 @@ Session ID: 94ad3390-b609-48db-a134-0d5857e14744
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.selenium.WebService.TrackoMain@54a097cc]" name="teardown" is-config="true" duration-ms="590" started-at="2017-11-28T08:54:33Z" finished-at="2017-11-28T08:54:33Z">
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.selenium.WebService.TrackoMain@54a097cc]" name="teardown" is-config="true" duration-ms="547" started-at="2017-11-28T09:05:27Z" finished-at="2017-11-28T09:05:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

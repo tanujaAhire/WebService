@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 43.202 sec <<< FAILURE!
-seup(com.selenium.WebService.TrackoMain)  Time elapsed: 0.8 sec  <<< FAILURE!
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 37.457 sec <<< FAILURE!
+seup(com.selenium.WebService.TrackoMain)  Time elapsed: 0.984 sec  <<< FAILURE!
 org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN8_1
 Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
 System info: host: 'DESKTOP-NQVH91B', ip: '192.168.0.5', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
@@ -14,14 +14,14 @@ Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
 	at com.selenium.WebService.TrackoMain.seup(TrackoMain.java:33)
 
-login(com.selenium.WebService.TrackoMain)  Time elapsed: 27.876 sec  <<< FAILURE!
+signup(com.selenium.WebService.TrackoMain)  Time elapsed: 20.074 sec  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[text()='Sign Up Free']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:22:35.584Z'
 System info: host: 'DESKTOP-NQVH91B', ip: '192.168.0.5', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_25'
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:32305/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, unhandledPromptBehavior: dismiss}
-Session ID: 94ad3390-b609-48db-a134-0d5857e14744
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:40470/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, unhandledPromptBehavior: dismiss}
+Session ID: aa2f9df9-4569-4f70-ae0b-891706398545
 *** Element info: {Using=xpath, value=//a[text()='Sign Up Free']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -37,5 +37,5 @@ Session ID: 94ad3390-b609-48db-a134-0d5857e14744
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at com.selenium.WebService.TrackoMain.login(TrackoMain.java:53)
+	at com.selenium.WebService.TrackoMain.signup(TrackoMain.java:54)
 

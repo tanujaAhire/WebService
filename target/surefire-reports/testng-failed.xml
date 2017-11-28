@@ -8,7 +8,7 @@
         <methods>
           <include name="seup"/>
           <include name="teardown"/>
-          <include name="login"/>
+          <include name="signup"/>
         </methods>
       </class> <!-- com.selenium.WebService.TrackoMain -->
     </classes>
@@ -20,7 +20,7 @@
         <methods>
           <include name="seup"/>
           <include name="teardown"/>
-          <include name="login"/>
+          <include name="signup"/>
         </methods>
       </class> <!-- com.selenium.WebService.TrackoMain -->
     </classes>
