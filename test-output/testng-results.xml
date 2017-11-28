@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2649" started-at="2017-11-27T02:22:39Z" finished-at="2017-11-27T02:22:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2649" started-at="2017-11-27T02:22:39Z" finished-at="2017-11-27T02:22:41Z">
+      <class name="com.selenium.WebService.AssuredRestClient">
+        <test-method status="PASS" signature="soap()[pri:0, instance:com.selenium.WebService.AssuredRestClient@42d80b78]" name="soap" duration-ms="2620" started-at="2017-11-27T07:52:39Z" finished-at="2017-11-27T07:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soap -->
+      </class> <!-- com.selenium.WebService.AssuredRestClient -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
