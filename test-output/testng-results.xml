@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2649" started-at="2017-11-27T02:22:39Z" finished-at="2017-11-27T02:22:41Z">
+  <suite name="Default suite" duration-ms="3764" started-at="2017-11-29T04:01:51Z" finished-at="2017-11-29T04:01:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2649" started-at="2017-11-27T02:22:39Z" finished-at="2017-11-27T02:22:41Z">
+    <test name="Default test" duration-ms="3764" started-at="2017-11-29T04:01:51Z" finished-at="2017-11-29T04:01:54Z">
       <class name="com.selenium.WebService.AssuredRestClient">
-        <test-method status="PASS" signature="soap()[pri:0, instance:com.selenium.WebService.AssuredRestClient@42d80b78]" name="soap" duration-ms="2620" started-at="2017-11-27T07:52:39Z" finished-at="2017-11-27T07:52:41Z">
+        <test-method status="PASS" signature="rest()[pri:0, instance:com.selenium.WebService.AssuredRestClient@42d80b78]" name="rest" duration-ms="3712" started-at="2017-11-29T09:31:51Z" finished-at="2017-11-29T09:31:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- soap -->
+        </test-method> <!-- rest -->
       </class> <!-- com.selenium.WebService.AssuredRestClient -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

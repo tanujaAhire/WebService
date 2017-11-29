@@ -19,7 +19,7 @@ public class TrackoMain
 	
 	@Parameters("browserParameter")
 	@BeforeTest
-	public void seup(String Value )
+	public void setup(String Value )
 	{
 		String browser=Value;
 		if(browser.equals("chrome"))
